@@ -1,0 +1,46 @@
+/* Declare root color variable */
+:root {
+  --primary-color: #e50914;
+}
+
+/* reset
+* is for everything 
+1. padding doesn't affect width, 2. take margin off everything, 3. take padding off everything */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  /* top and bottom margin, no left/right margin, 1 rem is = default font size of html element = 16px in this case */
+  margin: 0.5rem 0;
+}
+
+img {
+  /* images take up 100% of the width of it's container */
+  width: 100%;
+}
