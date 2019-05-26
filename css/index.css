@@ -1,4 +1,4 @@
-/* Declare root color variable */
+/* Declare root color variables */
 :root {
   --primary-color: #e50914;
   --dark-color: #141414;
@@ -121,8 +121,6 @@ img {
   transform: translate(-50%, -50%);
 }
 
-/* Utility classes */
-
 /* Tabs */
 .tabs {
   background: var(--dark-color);
@@ -159,6 +157,21 @@ img {
   border-bottom: var(--primary-color) 4px solid;
 }
 
+/* tab content */
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
 /* container */
 .container {
   max-width: 70%;
@@ -166,6 +179,25 @@ img {
   overflow: hidden;
   /* 0 top and bottom, 2 rem left and right */
   padding: 0 2rem;
+}
+
+/* Utility classes */
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #999;
 }
 
 /* Buttons */
