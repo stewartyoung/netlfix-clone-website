@@ -155,6 +155,10 @@ img {
   cursor: pointer;
 }
 
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+
 /* container */
 .container {
   max-width: 70%;
