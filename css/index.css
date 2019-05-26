@@ -44,3 +44,20 @@ img {
   /* images take up 100% of the width of it's container */
   width: 100%;
 }
+
+.showcase {
+  width: 100%;
+  /* viewport height slices viewport into 100 slices, and we want the showcase image to take up 93 of these */
+  height: 93vh;
+  position: relative;
+  background: url("../img/background.jpg") no-repeat center center/cover;
+}
+
+.showcase-top {
+  position: relative;
+  height: 90px;
+}
+
+.showcase-top img {
+  width: 170px;
+}
