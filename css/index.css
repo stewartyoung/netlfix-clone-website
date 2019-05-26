@@ -58,6 +58,27 @@ img {
   height: 90px;
 }
 
+/* position netflix logo */
 .showcase-top img {
   width: 170px;
+  position: absolute;
+  /* from the top of showcase position down 50% */
+  top: 50%;
+  /* from the left of showcase position over 50% */
+  left: 50%;
+  /* to account for logo height and width, need this to make it truly centered */
+  transform: translate(-50%, -50%);
+}
+
+/* place button over the netflix logo */
+.showcase-top a {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* Utility classes */
+/* Buttons */
+.btn {
 }
