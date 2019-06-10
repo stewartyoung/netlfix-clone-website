@@ -5,3 +5,4 @@
 # Topics covered:
 * HTML5
 * CSS Grid
+* Use JS to show and hide areas of the site on click
